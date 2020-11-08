@@ -1,0 +1,19 @@
+@import '@servicenow/sass-kit/host';
+
+
+.container {
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+now-template-card-assist {
+    width: 49%;
+    margin-bottom: 2%;
+}
+
+now-loader {
+    margin: 200px auto;
+}
