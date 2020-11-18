@@ -1,7 +1,16 @@
 {
 	"components": {
 	    "x-550136-incident-list": {
-	        "innerComponents": []
+	        "innerComponents": [
+				"now-loader",
+				"now-template-card-assist"
+			],
+			"uiBuilder": {
+				"label": "Incident list",
+				"icon" : "record-activity-details-fill",
+				"description" : "List of incidents",
+				"associatedTypes": ["global.core"]
+			}
 	    }
 	},
 	"scopeName": "x_550136_test_in_0"
